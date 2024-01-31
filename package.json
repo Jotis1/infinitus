@@ -1,5 +1,5 @@
 {
-  "name": "wordpress_cms_with_nextjs",
+  "name": "yorupress",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,13 @@
   },
   "dependencies": {
     "@tabler/icons-react": "^2.46.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.10",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

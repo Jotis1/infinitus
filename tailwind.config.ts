@@ -12,15 +12,11 @@ const config: Config = {
         "nav-lg": "1120px",
         "nav-md": "734px",
       },
-      fontFamily: {
-        sans: ["Inter", "sans-serif"],
-      },
     },
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/aspect-ratio')
   ],
 };
 export default config;
